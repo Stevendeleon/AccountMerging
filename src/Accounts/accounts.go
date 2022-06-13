@@ -13,7 +13,12 @@ type Accounts []struct {
 }
 
 var (
-	Accs Accounts
+	Accs   Accounts
+	Output []struct {
+		Applications []string
+		Emails       []string
+		Name         string
+	}
 )
 
 func LoadJSON(path string) Accounts {
@@ -69,4 +74,6 @@ func Merge(a Accounts) {
 	}
 
 	fmt.Println(mergedAccounts)
+	Output = mergedAccounts
+
 }
