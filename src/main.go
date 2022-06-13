@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	accs := accounts.LoadJSON("accounts.json")
+	accs := accounts.LoadJSON("src/accounts.json")
 	accounts.Merge(accs)
 }
