@@ -1,4 +1,4 @@
-const accounts = require('../accounts.json');
+const accounts = require('./accounts.json');
 
 function mergeAccounts(accounts) {
 
