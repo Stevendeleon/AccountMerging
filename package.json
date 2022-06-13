@@ -1,0 +1,23 @@
+{
+  "name": "accountmerging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevendeleon/AccountMerging.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevendeleon/AccountMerging/issues"
+  },
+  "homepage": "https://github.com/Stevendeleon/AccountMerging#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

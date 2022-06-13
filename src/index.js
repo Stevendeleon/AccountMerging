@@ -27,3 +27,7 @@ function mergeAccounts(accounts) {
 
 const accountsList = mergeAccounts(accounts);
 console.log(accountsList);
+
+module.exports = {
+    mergeAccounts
+}
